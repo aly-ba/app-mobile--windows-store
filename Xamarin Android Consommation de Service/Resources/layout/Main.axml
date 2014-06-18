@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip">
+    <TextView
+        android:text="Select User"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usersSpinner" />
+    <TextView
+        android:text="Add User"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="60dip"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView3"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1" />
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/nameTextView"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="5" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Goal"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="60dip"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView3"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1" />
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/goalTextView"
+            android:layout_weight="5"
+            android:layout_marginLeft="10dip" />
+    </LinearLayout>
+    <Button
+        android:text="Add"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:id="@+id/addNewUserButton"
+        android:autoText="true"
+        android:layout_gravity="center" />
+    <TextView
+        android:text="Add Protein"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Amount"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="60dip"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView3"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1" />
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/amountTextView"
+            android:layout_weight="5"
+            android:layout_marginLeft="10dip" />
+    </LinearLayout>
+    <Button
+        android:text="Add"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:id="@+id/addProteinButton"
+        android:layout_gravity="center" />
+    <TextView
+        android:text="Stats"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip">
+        <TextView
+            android:text="Total"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="50dip"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView3"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1" />
+        <TextView
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/userTotalTextView"
+            android:layout_weight="5" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip">
+        <TextView
+            android:text="Goal"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="50dip"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView3"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1" />
+        <TextView
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/userGoalTextView"
+            android:layout_weight="5" />
+    </LinearLayout>
+</LinearLayout>
